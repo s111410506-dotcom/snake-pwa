@@ -1,4 +1,4 @@
-const CACHE = 'snake-pwa-v1';
+const CACHE = 'snake-pwa-v2';
 
 const PRECACHE_URLS = [
   '/snake-pwa/',
