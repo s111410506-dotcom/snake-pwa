@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#1a1a2e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Snake PWA">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <title>貪吃蛇 Snake PWA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>貪吃蛇</h1>
+    <div id="score-board">
+      <span>分數: <span id="score">0</span></span>
+      <span>最高: <span id="high-score">0</span></span>
+    </div>
+    <canvas id="game-canvas" width="400" height="400"></canvas>
+    <div id="controls">
+      <button id="restart-btn">重新開始</button>
+    </div>
+    <div id="mobile-controls">
+      <button id="btn-up">▲</button>
+      <div>
+        <button id="btn-left">◀</button>
+        <button id="btn-down">▼</button>
+        <button id="btn-right">▶</button>
+      </div>
+    </div>
+    <p id="status">按方向鍵或滑動開始遊戲</p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
