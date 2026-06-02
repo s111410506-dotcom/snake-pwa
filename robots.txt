@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://s111410506-dotcom.github.io/snake-pwa/sitemap.xml
